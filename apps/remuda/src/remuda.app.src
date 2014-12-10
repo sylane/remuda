@@ -1,0 +1,10 @@
+{application, remuda,
+ [{description, "Client Connection Framework"},
+  {vsn, "0.001"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib]},
+  {mod, {remuda_app, []}},
+  {env, []}
+ ]}.
